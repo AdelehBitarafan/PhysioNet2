@@ -73,7 +73,7 @@ def Add_rpeak_channel(data):
 def run_12ECG_classifier(data,header_data,loaded_model):
 
     
-    Length = 6000
+    Length = 5600
     
     if data.shape[0] != 12:
         print('Error in number of leads!', data.shape)
